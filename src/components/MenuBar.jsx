@@ -1,10 +1,7 @@
 import {
   NavigationMenu,
-  NavigationMenuLink,
   NavigationMenuList,
-  navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import Link from 'next/link';
 import CustomLink from "./CustomLink";
 export default function MenuBar() {
     return <NavigationMenu>
